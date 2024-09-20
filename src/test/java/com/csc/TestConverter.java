@@ -81,6 +81,6 @@ public class TestConverter {
 
   @Test
   public void testNoArgumentToPoundsAndOunces() {
-    assertEquals("0.0000 lbs", converter.toPoundsAndOunces());
+    assertEquals("0 lbs 0 oz", converter.toPoundsAndOunces());
   }
 }
