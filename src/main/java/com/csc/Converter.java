@@ -38,7 +38,7 @@ public class Converter {
   public String toOunces(int pounds, int ounces) {
     int poundsToOunces = pounds * 16;
 
-    return poundsToOunces + ounces + " ounces";
+    return (poundsToOunces + ounces) + " ounces";
   }
 
   public static void main(String[] args) {
