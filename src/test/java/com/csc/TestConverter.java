@@ -100,6 +100,11 @@ public class TestConverter {
   }
 
   @Test
+  public void testTooManyPoundsAndOunces() {
+    assertEquals("48 ounces", converter.toOunces(2, 16));
+  }
+
+  @Test
   public void testToOuncesZeroOuncesAndPounds() {
     assertEquals("0 ounces", converter.toOunces(0, 0));
   }
