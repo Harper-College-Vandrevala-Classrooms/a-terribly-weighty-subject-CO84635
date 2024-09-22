@@ -49,5 +49,7 @@ public class Converter {
     System.out.println(converter.toPoundsAndOunces(36));
     System.out.println(converter.toPounds());
     System.out.println(converter.toPoundsAndOunces());
+    System.out.println(converter.toOunces(0, 12));
+    System.out.println(converter.toOunces(1, 15));
   }
 }
